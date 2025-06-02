@@ -13,10 +13,10 @@ function selectOption(option) {
         // Change text on the "No" button to "You sure Wangyal?"
         document.getElementById('No-button').innerText = 'You sure Wangyal?'; 
         // Increase font size of "Yes" button
-        var yesButton = document.getElementById('Yes-button');
+        var YesButton = document.getElementById('Yes-button');
         var currentFontSize = window.getComputedStyle(YesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
-        yesButton.style.fontSize = newSize + 'px';
+        YesButton.style.fontSize = newSize + 'px';
     } else {
         // If neither "Yes" nor "No" was clicked, show an alert message
         alert('Invalid option!');
