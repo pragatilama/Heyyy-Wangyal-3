@@ -11,10 +11,10 @@ function selectOption(option) {
         });
     } else if (option === 'No') {
         // Change text on the "No" button to "You sure Wangyal?"
-        document.getElementById('no-button').innerText = 'You sure Wangyal?'; 
+        document.getElementById('No-button').innerText = 'You sure Wangyal?'; 
         // Increase font size of "Yes" button
-        var yesButton = document.getElementById('yes-button');
-        var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
+        var yesButton = document.getElementById('Yes-button');
+        var currentFontSize = window.getComputedStyle(YesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
         yesButton.style.fontSize = newSize + 'px';
     } else {
