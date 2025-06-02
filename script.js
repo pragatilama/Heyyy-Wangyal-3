@@ -3,15 +3,15 @@
 // Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
-    if (option === 'yes') {
+    if (option === 'Yes') {
         // Flash rainbow colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
-    } else if (option === 'no') {
-        // Change text on the "No" button to "You sure?"
-        document.getElementById('no-button').innerText = 'You sure?'; 
+    } else if (option === 'No') {
+        // Change text on the "No" button to "You sure Wangyal?"
+        document.getElementById('no-button').innerText = 'You sure Wangyal?'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
