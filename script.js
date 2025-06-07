@@ -10,8 +10,8 @@ function selectOption(option) {
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'No') {
-        // Change text on the "No" button to "You sure Wangyal?"
-        document.getElementById('No-button').innerText = 'You sure Wangyal?'; 
+        // Change text on the "No" button to "You sure?"
+        document.getElementById('No-button').innerText = 'You sure?'; 
         // Increase font size of "Yes" button
         var YesButton = document.getElementById('Yes-button');
         var currentFontSize = window.getComputedStyle(YesButton).getPropertyValue('font-size');
